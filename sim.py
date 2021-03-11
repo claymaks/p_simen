@@ -56,8 +56,8 @@ class Point(object):
         self.y_i_1 = y
 
         self.target = False
-        self.x_f = random.randint(0, H)  # H // 2
-        self.y_f = random.randint(0, W)  # W // 2
+        self.x_f = H // 2 # random.randint(0, H)  # H // 2
+        self.y_f = W // 2 # random.randint(0, W)  # W // 2
 
         self.a = 0
         self.v_x = 0

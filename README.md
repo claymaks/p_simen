@@ -3,6 +3,9 @@ Swarm simulation environment using points in Pygame.
 
 Simulation built to run with base `Point` agent.  Agent behavior can be altered by overriding or modifying the `update` method.
 
+Multiple points moving towards center (with collisions)
+![](/media/gif/collisions)
+
 One point moving towards center (calculated deceleration).
 ![](/media/gif/one_point_center.gif)
 
